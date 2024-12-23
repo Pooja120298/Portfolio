@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        .header{
+            background-color: black;
+            height: 700px;
+        }
+        .ul1{
+            margin-top: 40px;
+            display: flex;
+            /* border: 2px solid red; */
+            margin-left: 300px;
+            height: 80px;
+            font-size: 22px;
+
+        }
+        .ul1 li{
+            list-style: none;
+            margin-left: 48px;
+        }
+        .ul1 li a{
+            text-decoration: none;
+            color: white;
+        }
+        .ul1 li button{
+            border: 2px solid white;
+
+        }
+        .navbar1{
+            display:  flex;
+            margin-left: 50px;
+            margin-top: 30px;
+            font-size: 50px;
+            text-decoration: none;
+        
+
+        }
+        .img1{
+            
+            width: 180px;
+            height: 60px;
+            margin-left: 50px;
+            margin-top: 30px;
+        }
+        .container1{
+          display: flex;
+        }
+        .container1-1{
+            color: white;
+            margin-left: 40px;
+            /* justify-content: center; */
+            
+        }
+        .container1-1 h1{
+            font-size: 65px;
+            font-weight: 800;
+            /* justify-content: center; */
+            text-align: left;
+            font-family: Poppins,sans-sarif;
+            margin-left: 30px;
+
+
+        }
+        .container1-1 h5{
+            font-size: 40px;
+            /* justify-content: center; */
+            text-align: left;
+            font-family: Poppins,sans-sarif;
+            margin-left: 30px;
+
+        }
+        
+        .container1-1 p{
+            font-size: 19px;
+            font-weight: 300;
+            text-align: left;
+            font-family: Poppins,sans-sarif;
+            margin-left: 30px;
+
+
+        }
+        .container1-1 button{
+            background-color: #a30c9c;
+            margin-left: 30px;
+            color: white;
+            font-size: 21px;
+            width: 201px;
+            height: 60px;
+            border: none;
+            border-radius: 13px;
+            cursor: pointer;
+                }
+
+        .container1-1 button:hover{
+            background-color:#e995de;
+            transition-delay: 100ms;
+            width: 205px;
+        }
+
+        /* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(81, 32, 172);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+
+
+        .container1-2 img{
+          border-radius: 150px;
+          margin-top: 100px;
+          margin-left: 15px;          
+        }
+ 
+
+        .container3 {
+          display: flex;
+          justify-content: space-evenly;
+          height: 300px;
+          border: 1px solid gray;
+          background-color: rgb(45, 45, 46);
+
+      }
+      .container3 ul li{
+          list-style: none;
+          color: white;
+          font-size: 20px;
+          line-height: 30px;
+
+      }  
+        .container3 h2{
+          font-size: 40px;
+          font-weight: bold;
+          color: white;
+
+        }  
+        
+      
+        .container2{
+            background-color: rgb(45, 45, 46);
+            height: 100px;
+            padding-left: 550px;
+           color: white;
+           font-size: 35px;
+           font-weight: bold;
+           padding-top: 10px;
+        }
+        
+        .Container4 {
+          background-color: #0a090a;
+          color: white;
+          height: 1700px;
+          padding-top: 35px;
+        }  
+        .Container4 h1{
+          padding-left: 550px;
+          font-size: 42px;
+          font-weight: bold;
+        }
+        .Container4 dis{
+          margin-left: 200px;
+          font-size: 20px;
+
+        }
+        .Container4-1{
+          display: flex;
+          border: 2 px solid gray;
+          justify-content: space-between;
+          margin-left: 50px;
+          margin-right: 50px;
+          padding-top: 50px;
+        }
+          
+          .container6{
+            background-color: rgb(45, 45, 46);
+            padding-top: 30px;
+ 
+            
+
+          }
+          .container6 h1{
+            font-size: 40px;
+            color: white;
+            line-height: 80px;
+            margin-top: 50px;
+            text-wrap: 5px;
+            margin-left: 540px;
+            letter-spacing: 4px;
+          
+          
+          }
+          .container6 p{
+            font-size: 20px;
+            color: white;
+            margin-top: 10px;
+            margin-left: 150px;
+            letter-spacing: 4px;
+            font-family: sans-serif,Poppins;
+            text-align: center;       }
+        .container7{
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .ftco-about{
+          .img-about{
+            z-index: 0;
+            position: relative;
+            .img{
+              display: block;
+              position: relative;
+              z-index: 1;
+            }
+          }
+        }
+          ul.about-info{
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            li{
+              list-style: none;
+              margin-bottom: 10px;
+              span{
+                &:first-child{
+                  font-weight: 600;
+                  color: white;
+                }
+              }
+            }
+          }
+          .counter-wrap{
+            .text{
+              p{
+                font-size: 20px;
+                span{
+                  font-weight: 400;
+                  color: white;
+                }
+                span.number{
+                  font-weight: 600;
+                  color: primary;
+                }
+              }
+            }
+          }
+          
+        
+        
+        
+        .resume-wrap{
+          margin-bottom: 30px;
+          background: rgba(255,255,255,.1);
+          padding: 30px;
+          border-radius:10px;
+          .date{
+            font-weight: 900;
+            font-size: 26px;
+            color: white;
+          }
+          h2{
+            font-size: 24px;
+            color: white;
+
+          }
+          .position{
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+            margin-bottom: 5px;
+
+          }
+
+        }
+
+        
+        .project{
+          height: 285px;
+          margin-bottom: 30px;
+          background-color: black;
+          color: white;
+          position: relative;
+          z-index: 0;
+          
+          &.img-2{
+            height: 600px;
+            media-breakpoint-down:sm{
+              height: 285px;
+            }
+            .text{
+              max-width: 45%;
+              z-index: 1;
+              h3{
+                font-size: 22px;
+                a{
+                  color: white;
+                }
+              }
+              span{
+                color: rgba(255,255,255,.8);
+                text-transform: uppercase;
+                letter-spacing: 2px;
+              }
+             media-breakpoint-down:sm{
+                max-width: 100%;
+                opacity: 1;
+                span{
+                  color: rgba(255,255,255,.8);
+                }
+              }
+            }
+          }
+          .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            content: '';
+            opacity: 0;
+            background: black;
+            z-index: -1;
+            transition:.3s;
+            media-breakpoint-down:sm{
+              opacity: .2;
+            }
+          }
+          .text{
+            z-index: 1;
+            opacity: 0;
+            transition:.3s;
+            h3{
+              font-size: 20px;
+              a{
+                color: white;
+              }
+            }
+            span{
+              color: rgba(255,255,255,.8);
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              font-size: 12px;
+              font-weight: 600;
+            }
+            media-breakpoint-down:sm{
+              opacity: 1;
+              span{
+                color: rgba(255,255,255,.8);
+              }
+            }
+          }
+          &:hover, &:focus{
+            .overlay{
+              opacity: .9;
+            }
+            .text{
+              opacity: 1;
+            }
+          }
+        }
+        
+        
+        .container10{
+          font-size: 30px;
+          padding: 30px;
+          background-color: #0a090a;
+          height: 200px;
+          color: white;
+          width:1300px;
+        } 
+        .container10 h1{
+          padding-left: 530px;
+        }
+        
+        .container11 {
+          margin: 0 auto;
+          padding: 20px;
+          background-color: #0a090a;
+          color: white;
+        }
+        
+        .container11 p {
+          color: #555;
+        }
+        
+        .container11 input[type="text"], input[type="email"], textarea {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+          border-radius: 2px;
+        }
+        
+        .container11 input[type="submit"] {
+          background-color:rgb(91, 94, 95);
+          color: white;
+          width: 300px;
+          height: 40px;
+          border: none;
+          cursor: pointer;
+          border-radius: 2px;
+          background-color: #111011;
+
+
+        }
+        
+        .container11 input[type="submit"]:hover {
+          background-color: #930da5;
+          border-radius: 2px;
+
+        }
+        body {
+                    font-family: sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #f0f0f0;
+                    color: #333;
+                }
+        
+                .column {
+                    text-align: center;
+                }
+        
+                h2 {
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                }
+        
+                p {
+                    font-size: 16px;
+                }
+        
+                .img,
+                .blog-img,
+                .user-img{
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  background-position: center center;
+                }
+                
+                
+                
+                .image-popup {
+                  cursor: -webkit-zoom-in;
+                  cursor: -moz-zoom-in;
+                  cursor: zoom-in;
+                }
+                .mfp-with-zoom .mfp-container,
+                .mfp-with-zoom.mfp-bg {
+                  opacity: 0;
+                  -webkit-backface-visibility: hidden;
+                  -webkit-transition: all 0.3s ease-out; 
+                  -moz-transition: all 0.3s ease-out; 
+                  -o-transition: all 0.3s ease-out; 
+                  transition: all 0.3s ease-out;
+                }
+                
+                .mfp-with-zoom.mfp-ready .mfp-container {
+                    opacity: 1;
+                }
+                .mfp-with-zoom.mfp-ready.mfp-bg {
+                    opacity: 0.8;
+                }
+                
+                .mfp-with-zoom.mfp-removing .mfp-container, 
+                .mfp-with-zoom.mfp-removing.mfp-bg {
+                  opacity: 0;
+                }
+                
+                
+                
+                
+                #section-counter{
+                  position: relative;
+                  z-index: 0;
+                }
+                .ftco-counter {
+                  media-breakpoint-down:lg{
+                    background-position: center center !important;
+                  }
+                  .block-18{
+                    display: block;
+                    text-align: center;
+                    background: #191919;
+                    padding: 30px 20px;
+                    border-radius:5px;
+                  }
+                  .text{
+                    strong.number{
+                      font-weight: 700;
+                      font-size: 30px;
+                      color: primary;
+                      display: block;
+                    }
+                    span{
+                      display: block;
+                      font-size: 16px;
+                      color: rgba(255,255,255,.8);
+                    }
+                  }
+                  .counter-wrap{
+                     media-breakpoint-down:sm{
+                      margin-bottom: 20px;
+                    }
+                  }
+                  .ftco-number {
+                    display: block;
+                    font-size: 72px;
+                    font-weight: bold;
+                    color: primary;
+                  }
+                  .ftco-label {
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    letter-spacing: .1em;
+                  }
+                }
+                
+                .block-20 {
+                  overflow: hidden;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  background-position: center center;
+                  position: relative;
+                  display: block;
+                  height: 350px;
+                }
+                .blog-entry{
+                  position: relative;
+                   media-breakpoint-up:md{
+                    margin-bottom: 30px;
+                  }
+                  media-breakpoint-down:sm{
+                    margin-bottom: 30px;
+                  }
+                  .text {
+                    margin: 0 auto;
+                    .heading {
+                      font-size: 20px;
+                      margin-bottom: 16px;
+                      font-weight: 500;
+                      a {
+                        color: white;
+                        &:hover, &:focus, &:active {
+                          color: primary;
+                        }
+                      }
+                    }
+                  }
+                  .meta {
+                    display: inline-block;
+                    margin-right: 5px;
+                    margin-bottom: 0;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    span{
+                      color: primary;
+                    }
+                    a {
+                      color: primary;
+                      &:hover {
+                        color: primary;
+                      }
+                    }
+                  }
+                }
+                
+                
+                .block-23 {
+                  ul {
+                    padding: 0;
+                    li {
+                      
+                      &, > a {
+                        display: table;
+                        line-height: 1.5;
+                        margin-bottom: 15px;
+                      }
+                      span{
+                        color: rgba(white, .7);
+                      }
+                      .icon, .text {
+                        display: table-cell;
+                        vertical-align: top;
+                      }
+                      .icon {
+                        width: 40px;
+                        font-size: 18px;
+                        padding-top: 2px;
+                        color: rgba(white, 1);
+                      }
+                      
+                    }
+                  }
+                }
+                
+                .block-6 {
+                  margin-bottom: 40px;
+                  .icon {
+                    span {
+                      &:before {
+                      }
+                    }
+                  }
+                  .media-body {
+                    .heading {
+                
+                    }
+                    p {
+                      font-size: 16px;
+                    }
+                  }
+                } 
+                
+                .block-27 {
+                  ul {
+                    padding: 0;
+                    margin: 0;
+                    li {
+                      display: inline-block;
+                      margin-bottom: 4px;
+                      font-weight: 400;
+                      a,span {
+                        color: secondary;
+                        text-align: center;
+                        display: inline-block;
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        border-radius: 50%;
+                        border: 1px solid lighten(black,80%);
+                      }
+                      &.active {
+                        a, span {
+                          background: secondary;
+                          color: white;
+                          border: 1px solid transparent;
+                        }
+                      }
+                    }
+                  }
+                }
+                
+                
+                .contact-section {
+                  .contact-info{
+                    p{
+                      a{
+                        color: lighten(black,10%);
+                      }
+                  
+                    }
+                  }
+                  .box{
+                    display: block;
+                     border-radius:4px;
+                    media-breakpoint-down:md{
+                      margin-bottom: 30px;
+                    }
+                    .icon{
+                      height: 100px;
+                      background: rgba(255,255,255,.1);
+                      margin: 0 auto;
+                      margin-bottom: 2em;
+                      border-radius:50%;
+                      span{
+                        color: primary;
+                        font-size: 30px;
+                      }
+                    }
+                    h3{
+                      font-size: 17px;
+                      font-weight: 500;
+                      text-transform: uppercase;
+                    }
+                  }
+                  .contact-form{
+                    width: 100%;
+                  }
+                }
+                .contact-section {
+                  .img{
+                    width: 100%;
+                    background-position: top center;
+                    media-breakpoint-down:md{
+                      height: 500px;
+                    }
+                  }
+                  .contact-info{
+                    p{
+                      a{
+                        color: white;
+                      }
+                    
+                    }
+                  }
+                  .contact-form{
+                    .btn-primary{
+                      media-breakpoint-down:sm{
+                        display: block;
+                      }
+                    }
+                  }
+                }
+                .block-9 {
+                
+                  .form-control {
+                    outline: none!important;
+                    box-shadow: none!important;
+                    font-size: 15px;
+                  }
+                
+                }
+                
+                
+              .block-21
+                .block-21 {
+                  .blog-img{
+                    display: block;
+                    height: 80px;
+                    width: 80px;
+                    border-radius:50%;
+                  }
+                  .text {
+                    width: calc(100% - 100px);
+                    .heading {
+                      font-size: 18px;
+                      font-weight: 300;
+                      a {
+                        color: white;
+                        &:hover, &:active, &:focus {
+                          color: primary;
+                        }
+                      }
+                    }
+                    .meta {
+                      > div {
+                        display: inline-block;
+                        margin-right: 5px;
+                        a {
+                          color: lighten(black, 30%);
+                          font-size: 12px;
+                          text-transform: uppercase;
+                          letter-spacing: 1px;
+                          font-weight: 600;
+                        }
+                      }
+                    }
+                  }
+                }
+
+                footer {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  padding: 20px;
+                  background-color: #353434;
+              }
+      
+              .h1-container {
+                  display: flex;
+                  justify-content: center;
+                  margin-bottom: 20px;
+                  color: rgb(81, 32, 172);
+                }
+      
+              .a-container {
+                  display: flex;
+                  align-items: center;
+                  column-gap: 16px;
+                  width: 100%;
+                  margin-bottom: 20px;
+                  padding-left: 1030px;
+                  font-size: 20px;
+                  text-decoration: none;
+              }
+      
+              .social-links {
+                  display: flex;
+                  padding-left: 920px;
+
+                  width: 100%;
+              }
+      
+              .social-links a {
+                  text-decoration: none;
+                  padding: 10px 20px;
+                  background-color: #333;
+                  color: white;
+                  border-radius: 5px;
+              }
+      
+              .social-links a:hover {
+                  background-color: #555;
+              }
+
+              .h4-container{
+                color: white;
+                margin-left:28px;
+              }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar1">
+            <a href="#">Portfolio</a>
+            <ul class="ul1">
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#project-section">Project</a></li>
+                <li><a href="#education-section">Education</a></li>
+                <li style="border:2px solid rgb(249, 247, 250); border-radius:15px; height:35px; width:162px; padding-left:20px; padding-top:1px;"><a href="https://github.com/Pooja120298" class="button"> Github Profile</a></li>
+</ul>
+        </nav>
+
+
+        <section id="about-section" class="hero">
+        <div class="container1">
+        <div class="container1-1">
+            <h1>Hi, I am <br> Pooja Satpute</h1>
+        
+            <!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						' I am a Python Full Stack Web Developer  ',
+						'I am a Programmer '
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+          
+						</script>
+
+          <p>I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
+        </div>
+        
+        <div class="container1-2">
+            <img src="puju.jpg" alt="">
+        </div>
+      </div>
+    </section>  
+    </header>
+    <section class="ftco-section ftco-no-pb" id="skills-section">
+    <div class="container2">
+        <h3>Skills</h3>
+    </div>
+    
+    
+   
+
+    <div class="container3">
+      <div class="card" style="width: 19rem; margin-top:30px; height:15rem; border:1px solid rgb(63, 62, 62);">
+          <div class="card-body">
+              <h2>Frontend</h2>
+          </div>
+          <div>
+              <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Bootstrap</li>
+              </ul>
+          </div>
+    </div>
+        <div class="card" style="width: 19rem; margin-top:30px; height:15rem; border:1px solid rgb(63, 62, 62);">
+          <div class="card-body">
+              <h2>Backend</h2>
+          </div>
+          <div>
+              <ul>
+                  <li>Python</li>
+                  <li>Django</li>
+                  <li>MySQL</li>
+                  <li></li>
+              </ul>
+          </div>
+        </div>
+        <div class="card" style="width: 19rem; margin-top:30px; height:15rem; border:1px solid rgb(63, 62, 62);">
+          <div class="card-body">
+              <h2>Large Party</h2>
+          </div>
+        <div>
+              <ul>
+                  <li>GitHub</li>
+                  <li>VS Code</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section> 
+      <div class="Container4">
+        <section class="ftco-section" id="project-section">
+          <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+              <h1 class="big big-2">Projects</h1>
+              <p style="padding-left:260px;">I have worked on a wide range of projects. From web apps to django. Here are some of my projects.
+              </p>
+            </div>
+          </div>
+          <div class="Container4-1">
+          <div class="row d-flex">
+            <div class="col-md-4 d-flex ftco-animate">
+              <div class="blog-entry justify-content-end">
+                <a href="https://github.com/Pooja120298/Banking-System-Using-Python-and-Tkinter" class="block-20 zoom-effect" style="background-image: url('images/m1.jpg');"></a>
+                <div class="text mt-3 float-right d-block">
+  
+                <h3 class="heading"><a href="https://github.com/Pooja120298/Banking-System-Using-Python-and-Tkinter">Banking System using File Operation</a></h3>
+                <p>Banking system store data using file Operation .Help the customer <br>any information about there account </p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="col-md-4 d-flex ftco-animate">
+              <div class="blog-entry justify-content-end">
+                <a href="https://github.com/Pooja120298/Ajio-Online-Shopping-website-using-Html-Css" class="block-20 zoom-effect" style="background-image: url('images/m3.jpg');">
+                </a>
+                <div class="text mt-3 float-right d-block">
+  
+                  <h3 class="heading"><a href="https://github.com/Pooja120298/Ajio-Online-Shopping-website-using-Html-Css">Ajio website using Html and Css for beginners</a></h3>
+                  <p>Developed a e-commerce application with featuring Html and Css(front<br>-end Part)  purchase a clothes /other things.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+      <!-- added justify-content-center to center align the last two projects -->
+      <div class="row d-flex justify-content-center">  
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+          <a href="https://github.com/Pooja120298/Cafe-Management-System-Using-Python-and-Tkinter" class="block-20 zoom-effect" style="background-image: url('images/m2.jpg');">
+          </a>
+          <div class="text mt-3 float-right d-block">
+    
+            <h3 class="heading"><a href="https://github.com/Pooja120298/Cafe-Management-System-Using-Python-and-Tkinter">Cafe Project using Python and Tkinter</a></h3>
+            <p>Developed an application that offers personalized food or coffee and add new food also.<br> Order food on our address and pay the bill. </p>
+          </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+          <a href="https://github.com/Pooja120298/Propel-your-business-project-using-Html-CSS" class="block-20 zoom-effect" style="background-image: url('images/m4.jpg');">
+          </a>
+          <div class="text mt-3 float-right d-block">
+    
+            <h3 class="heading"><a href="https://github.com/Pooja120298/Propel-your-business-project-using-Html-CSS">Propal Your Business website using Html and Css</a></h3>
+            <p>Developed a Propel-your-business (Frontend Part) to give more information <br>to grow our business. </p>
+          </div>
+          </div>
+        </div>
+       </div>
+      </div>
+      <br>
+      <br>
+      
+
+      <div class="row d-flex justify-content-center" style=" margin-left:50px; margin-right:50px; display: flex; justify-content:space-between;">  
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+            <a href="https://github.com/Pooja120298/Django-Curd-Operation" class="block-20 zoom-effect" style="background-image: url('images/m5.jpg');"></a>
+            <div class="text mt-3 float-right d-block">
+
+            <h3 class="heading"><a href="https://github.com/Pooja120298/Django-Curd-Operation"> Django Crud Operation project Using SqLite3</a></h3>
+            <p>Developed a django project in this project create,read,update and delete <br>page. We can do all Operation and create contact page also.</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="col-md-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+          <a href="https://github.com/Pooja120298/Django-photography-project" class="block-20 zoom-effect" style=" width:618px; background-image: url('images/m6.jpg');">
+          </a>
+          <div class="text mt-3 float-right d-block">
+    
+            <h3 class="heading"><a href="https://github.com/Pooja120298/Django-photography-project">Django-photography-project using SqLite3</a></h3>
+            <p>Developed a photography album project to store the various type of <br>photo.And contact to photographer with mail Id or contact number.</p>
+          </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    
+
+    <section class="ftco-section ftco-no-pb" id="education-section">  
+    <div class="container6">
+        <div>
+            <h1>Education</h1>
+            <p>My education has been a journey of self-discovery and growth.<br> My educational details are as follows.</p>
+        </div>
+        <br>
+        
+    <div class="container7">
+              <div class="col-md-6">
+                <div class="resume-wrap ftco-animate">
+                    <span class="date">2019-2021</span>
+                    <h2>Master of Science (Computer Science )</h2>
+                    <span class="position">Devi Ahilya Vishwa vidhyalay Indore</span>
+                    <p class="mt-4">Grade: First class .</p>
+                </div>
+              </div>
+    
+            <div class="col-md-6">
+                <div class="resume-wrap ftco-animate">
+                  <span class="date">2016-2019</span>
+                  <h2>Bachelor of Science (Computer Science)</h2>
+                  <span class="position">Devi Ahilya Vishwa vidhyalay Indore</span>
+                  <p class="mt-4">Grade: Second class.</p>
+                </div>
+            </div>
+          </div>
+    </div>
+
+  </section>    
+        
+      <div class="container10">
+        <h1>Contact</h1>
+        <p style="text-align: center; color:rgb(248, 245, 245);">Feel free to reach out to me for any questions or opportunities!</p>
+      </div>
+      
+        <div style="width: 950px; padding-left:380px" class="container11">
+          
+            <form style="width: 700px; padding-left:2px; background-color:#424242; border-radius:10px;">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email"><br><br>
+
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name"><br><br>
+              
+              <label for="name">Subject</label>
+              <input type="text" id="text" name="name"><br><br>
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+              <input style="font-size: 25px; margin-left:50px" type="submit" value="SEND MESSAGE">
+            </form>
+        </div>
+      
+
+
+
+        <footer>
+          <div class="h1-container">
+              <h1>Pooja Satpute</h1>
+          </div>
+          <div class="a-container">
+              <a href="#about-section">About</a>
+              <a href="#skills-section">Skills</a>
+              <a href="#project-section">Project</a>
+              <a href="#education-section">Education</a>
+          </div>
+          <div class="social-links">
+              <a href="https://www.facebook.com" target="_blank">Facebook</a>
+              <a href="https://www.twitter.com" target="_blank">Twitter</a>
+              <a href="https://www.instagram.com" target="_blank">Instagram</a>
+              <a href="https://www.linkedin.com/in/pooja-satpute-6b0883227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+          </div>
+          <div class="h4-container">
+            <h4>© 2024 Pooja Satpute. All rights reserved.</h4>
+          </div>
+      </footer>
+     
+
+
+  
+
+  
+</body>
+</html>
